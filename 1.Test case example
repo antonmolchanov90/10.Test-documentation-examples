@@ -1,1 +1,27 @@
+Test case example - Facebook login
 
+Environment - Linux Mint OS, Chrome browser
+
+#1 Positive case (enter correct data and login successfully)
+Before: user should be registered on Facebook
+Step 1. open Facebook's main page using Chrome browser
+Step 2. enter correct user's email in field 1
+Step 3. enter correct user's password in field 2
+Step 4. click Log In button
+Expected result: Login is successful. User is redirected to home page
+
+#2 Negative case 1 (enter incorrect email and receive error)
+Before: user should be registered on Facebook
+Step 1. open Facebook's main page using Chrome browser
+Step 2. enter incorrect user's email in field 1
+Step 3. enter correct user's password in field 2
+Step 4. click Log In button
+Expected result: Login is unsuccessful. Error message is shown to the user
+
+#3 Negative case 2 (enter incorrect password and receive error)
+Before: user should be registered on Facebook
+Step 1. open Facebook's main page using Chrome browser
+Step 2. enter correct user's email in field 1
+Step 3. enter incorrect user's password in field 2
+Step 4. click Log In button
+Expected result: Login is unsuccessful. Error message is shown to the user
